@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=League+Spartan:wght@100&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0% auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #333333;
+    margin: 10% auto;
+  
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #a17732;
+    
+}
+
+.avatar {
+    border: #a17732 solid 4px ;
+    border-radius: 50%;
+    padding: 4px;
+    transition: all 500ms;
+    width: 200px;
+}
+.avatar:hover {
+    border: #dda244 solid 5px ;
+    border-radius: 50%;
+    padding: 4px;
+    
+}
+
+.menu {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bnt {
+    width: 326px;
+    height: 49px;
+    border: 2px solid #a17732;
+    border-radius: 4px;
+    background-color: #333333;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #da9e3e;
+    transition:all 400ms;
+    cursor: pointer;
+}
+
+.bnt:hover {
+    background: #ffe263;
+    color: #583e12;
+}
+
+.bnt:active {
+    background: rgb(255, 187, 0);
+}
+
+.linksicons{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 340px;
+
+}
+
+.i {
+
+    border: #a17732 solid 1px ;
+    border-radius: 30%;
+    padding: 5px;
+    transition: all 500ms;
+}
+
+.i:hover{
+
+    background: #756001;
+    padding: 7px;
+}
+
+.i:active{
+
+    background: rgb(255, 187, 0);
+    padding: 15px;
+}
+
+footer {
+    margin: 5% auto;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(255, 187, 0);
+    opacity: 0.5;
+    transition: opacity 400ms;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
